@@ -1,5 +1,5 @@
 import { Star, MessageCircle, Clock, MapPin } from 'lucide-react';
-import { SITE_INFO, BUSINESS_HOURS } from '@/data/links';
+import { SITE_INFO } from '@/data/links';
 import { motion } from 'framer-motion';
 
 const badges = [
@@ -31,9 +31,12 @@ const badges = [
 
 export function TrustBadges() {
   return (
-    <section className="py-6 bg-secondary/50 border-y border-border" aria-label="Trust indicators">
+    <section
+      className="py-6 bg-secondary/50 border-y border-border"
+      aria-label="Trust indicators"
+    >
       <div className="container-content">
-        <div className="flex overflow-x-auto gap-6 pb-2 scrollbar-hide snap-x snap-mandatory md:justify-center md:overflow-visible">
+        <div className="grid grid-cols-2 gap-4 max-w-md mx-auto">
           {badges.map((badge, index) => (
             <motion.div
               key={badge.sublabel}
@@ -41,12 +44,19 @@ export function TrustBadges() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="flex items-center gap-3 min-w-fit snap-center bg-card rounded-2xl px-4 py-3 shadow-soft"
+              className="flex items-center gap-3 bg-card rounded-2xl px-4 py-3 shadow-soft"
             >
-              <badge.icon className={`h-5 w-5 ${badge.color}`} aria-hidden="true" />
+              <badge.icon
+                className={`h-5 w-5 ${badge.color}`}
+                aria-hidden="true"
+              />
               <div className="text-left">
-                <p className="font-semibold text-foreground whitespace-nowrap">{badge.label}</p>
-                <p className="text-xs text-muted-foreground">{badge.sublabel}</p>
+                <p className="font-semibold text-foreground">
+                  {badge.label}
+                </p>
+                <p className="text-xs text-muted-foreground">
+                  {badge.sublabel}
+                </p>
               </div>
             </motion.div>
           ))}
