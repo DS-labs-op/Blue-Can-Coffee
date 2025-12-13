@@ -43,7 +43,7 @@ export function HeroSection({ onOrderClick }: HeroSectionProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-xl md:text-2xl text-muted-foreground mb-10 font-medium"
+          className="text-xl md:text-2xl text-[#4b2e1f] mb-10 font-medium"
         >
           Great coffee. Cozy vibes. Surat.
         </motion.p>
