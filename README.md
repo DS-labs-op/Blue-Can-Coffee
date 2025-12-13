@@ -1,74 +1,100 @@
+# Blue Can Coffee ☕  
+Official Website – Blue Can Coffee
 
-# Welcome to your Lovable project
+🔗 Live Website: https://bluecancoffee.vercel.app
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 📌 Overview
 
-## How can I edit this code?
+**Blue Can Coffee** is a modern, responsive website designed for a café brand.  
+The website focuses on clean UI, smooth navigation, and a premium coffee-shop aesthetic while remaining fast and mobile-friendly.
 
-There are several ways of editing your application.
+This project is built to showcase café information, ambiance, services, and external ordering options.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🚀 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- Modern and responsive UI (mobile-first)
+- Fast performance with Vite + React
+- Smooth navigation and page transitions
+- Clean color palette with coffee-inspired tones
+- SEO-friendly structure
+- Hosted on Vercel
+- External food delivery integration (Zomato / Swiggy links)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Frontend:** React + TypeScript
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Deployment:** Vercel
+- **Version Control:** Git & GitHub
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📂 Project Structure
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+src/
+├── components/ # Reusable UI components
+├── pages/ # Website pages
+├── assets/ # Images, icons, fonts
+├── styles/ # Global styles
+├── App.tsx
+└── main.tsx
 
-# Step 3: Install the necessary dependencies.
-npm i
+yaml
+Copy code
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## ⚙️ Installation & Setup
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Clone the repository:
 
-**Use GitHub Codespaces**
+```bash
+git clone https://github.com/your-username/blue-can-coffee.git
+cd blue-can-coffee
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+##🌐 Deployment
 
-## What technologies are used for this project?
+This project is deployed using Vercel.
+Any push to the connected GitHub branch triggers automatic deployment.
 
-This project is built with:
+##🧩 Future Enhancements
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Google Reviews integration
 
-## How can I deploy this project?
+Admin panel for content updates
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Gallery & menu management
 
-## Can I connect a custom domain to my Lovable project?
+Contact form with backend support
 
-Yes, you can!
+Progressive Web App (PWA) support
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+##📄 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is for business and educational use.
+All branding and content belong to Blue Can Coffee.
+
+##👤 Author
+
+Developed by Divy and Sahaj
+Frontend & Full-Stack Web Developer
+
+If you have suggestions or improvements, feel free to contribute.
+
+
+---
+
+### If you want, I can:
+- Customize this README exactly to **match your current features**
+- Add **screenshots section**
+- Make it more **startup / investor-ready**
+- Convert it into a **GitHub-style premium README**
+
+Tell me what level you want: **basic / professional / startup-grade**.
