@@ -55,7 +55,6 @@ Copy code
 
 Clone the repository:
 
-```bash
 git clone https://github.com/your-username/blue-can-coffee.git
 cd blue-can-coffee
 
