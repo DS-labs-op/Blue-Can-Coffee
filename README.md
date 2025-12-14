@@ -96,7 +96,7 @@ Follow these steps to get the café running on your local machine.
 
 1. **Clone the repository**
 ```bash
-git clone [https://github.com/DS-labs-op/Blue-Can-Coffee](https://github.com/DS-labs-op/Blue-Can-Coffee)
+git clone https://github.com/DS-labs-op/Blue-Can-Coffee
 cd blue-can-coffee
 
 ```
