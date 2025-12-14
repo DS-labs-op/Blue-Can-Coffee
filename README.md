@@ -83,12 +83,18 @@ src/
 
 ---
 
-## ⚙️ Local DevelopmentFollow these steps to get the café running on your local machine.
+## ⚙️ Local Development
 
-###Prerequisites* Node.js (v18+)
+Follow these steps to get the café running on your local machine.
+
+### Prerequisites
+
+* Node.js (v18+)
 * npm or bun
 
-###Installation1. **Clone the repository**
+### Installation
+
+1. **Clone the repository**
 ```bash
 git clone [https://github.com/your-username/blue-can-coffee.git](https://github.com/your-username/blue-can-coffee.git)
 cd blue-can-coffee
@@ -118,18 +124,11 @@ npm run build
 
 ```
 
-
-
 ---
 
-## 🛣️ Roadmap* [x] **Phase 1: Launch** - Core UI, Menu, and Deployment.
-* [ ] **Phase 2: Engagement** - Instagram Feed integration & "Coffee of the Day" widget.
-* [ ] **Phase 3: Admin** - Simple CMS for updating menu prices/items without code.
-* [ ] **Phase 4: PWA** - Progressive Web App support for offline menu viewing.
+## 🤝 Contributing 
 
----
-
-## 🤝 ContributingContributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -139,14 +138,18 @@ npm run build
 
 ---
 
-## 👤 Authors**Sahaj & Divy** *Full-Stack Developers & Caffeine Enthusiasts*
+## 👤 Authors
+
+**Sahaj & Divy** *Full-Stack Developers & Caffeine Enthusiasts*
 
 * **Sahaj:** [GitHub](https://www.google.com/search?q=https://github.com/sahaj33-op) · [Portfolio](https://sahaj33.vercel.app/)
 * **Divy:** [GitHub](https://www.google.com/search?q=https://github.com/divyviradiya1501)
 
 ---
 
-##📄 LicenseDistributed under the MIT License. See `LICENSE` for more information.
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
 <sub>Built with 💙 and ☕ in Surat, India.</sub>
